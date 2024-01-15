@@ -93,6 +93,8 @@
                     <scope>test</scope>
                 </dependency>
 
+
+
                 <dependency>
                     <groupId>org.junit.jupiter</groupId>
                     <artifactId>junit-jupiter-api</artifactId>
@@ -114,7 +116,11 @@
                             </image>
                         </configuration>
                     </plugin>
-
+                    <plugin>
+                        <groupId>com.heroku.sdk</groupId>
+                        <artifactId>heroku-maven-plugin</artifactId>
+                        <version>3.0.7</version>
+                    </plugin>
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-maven-plugin</artifactId>
