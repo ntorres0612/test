@@ -2,7 +2,6 @@ package com.example.test.service;
 
 
 import com.example.test.dto.CandidateDto;
-import com.example.test.entity.Candidate;
 
 import java.util.List;
 

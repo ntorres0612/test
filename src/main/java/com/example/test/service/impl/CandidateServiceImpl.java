@@ -2,12 +2,10 @@ package com.example.test.service.impl;
 
 import com.example.test.dto.CandidateDto;
 import com.example.test.entity.Candidate;
-//import com.example.test.mapper.CandidateMapper;
 import com.example.test.mapper.CandidateMapper;
 import com.example.test.repository.CandidateRepository;
 import com.example.test.service.CandidateService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
